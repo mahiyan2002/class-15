@@ -1,0 +1,169 @@
+/*Common Css Start*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ol, ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Common Css End*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*Nav Section Css Start*/
+    Nav{
+        /* height: 64px; */
+        background-color: #131e29;
+    }
+        
+        nav .logo{
+            width: 20%;
+        }
+        nav .logo img{
+            display: block;
+        }
+        nav .menu{
+            width: 80%;
+        }
+        nav ul{
+            justify-content: flex-end;
+        }
+        nav ul li a{
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 700;
+            color: #bfc1c2;
+            text-transform: uppercase;
+            padding: 42px 18px;
+            transition: all .4s linear;
+            
+        }
+        nav ul li:hover a{
+            color: #4bcaff;
+        }
+        nav .row{
+            align-items: center;
+        }
+        #banner{
+            height: 699px;
+            background-image: url(../img/content\ bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        #banner img{
+            width: 40%;
+        }
+        #banner .text-content{
+            width: 60%;
+        }
+        }
+        #banner .row img{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 42%;
+        }
+        #banner .row {
+            align-items: center;
+            height: 100%;
+        }
+        #banenr .pg {
+            color: white;
+        }
+        content .nav img{
+            padding-top: ;
+        }
+        #banner .text-content{
+            color: white;
+            align-items: center;
+            width: 58%;
+        }
+        #banner .container :nth-last-child()
+/*Nav Section Css End*/ 
+/*Content Section Css End*/
+        content h2{
+            padding-top: 250px;
+            color: white;
+            text-align: right;
+        }
+/*Content Section Css End*/ 
+/*Pricing Section Css End*/
+    .priceing-item{
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+    .priceing-item li{
+        font-size: 18px;
+    }
+    .priceing-item {
+        color: #d7d7d7;
+        margin: 0 25px;
+    }
+    .priceing-item h4{
+        padding: 30px;
+        
+        
+    }
+    .container.row{
+        height: 100%;
+        align-items: center;
+    }
+    .priceing-item P{
+        font-size: 85px;
+        background-color: #91c46b;
+    }
+    .container .priceing-item{
+        width: calc(30% - 30px);
+        border: 1px solid #dad7d7;
+        height: 100%;
+    }
+    
+    .container .professional-package{
+        width: calc(40% - 90px);
+    }
+    .container .professional-package p{
+        background-color: #4bcaff;
+    }
+    .container .priceing-item{
+        /* padding: 30px; */
+    }
+    .container .priceing-item a{
+        padding: 20px;
+        background-color: #91c46b;
+        border-radius: 10px;
+        display: inline-block;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .container .professional-package a{
+        background-color: #4bcaff;
+    }
+    .container .priceing-item .Advanced package h4{
+        background-color: #fd7c00;
+    }
+    .container .priceing-item.Advanced-package p{
+        background-color: #fd7c00;
+    }
+    .container .priceing-item.Advanced-package a{
+        background-color: #fd7c00;
+        color: white;
+    }
+/*Pricing Section Css End*/ 
+
+
+dfsaf
+
